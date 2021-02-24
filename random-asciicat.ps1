@@ -1,4 +1,4 @@
-[string[]]$lines = cat $PSScriptRoot\asciicat.txt
+[string[]]$lines = cat $PSScriptRoot\asciicat.txt -Encoding UTF8
 
 $cattot = $lines.length - ($lines | measure -line).lines +1
 $catno = [math]::floor((random -min 0 -max $cattot))

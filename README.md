@@ -10,6 +10,8 @@ The asciicats must be separated by exactly one (1) line. No more than one (1) li
 
 Feel free to make a pull request to add more asciicats!
 
+Note that some of the cats are not ASCII cats, but UTF-8 cats.
+
 ## Why?
 I wanted an ASCII cat to appear when I started PowerShell. 
 
